@@ -19,15 +19,41 @@ frame_food.place(x=25, y=30)
 # frame_drinks = Frame(frame_options, width=350, height=200, bg="#eba2a2")
 # frame_drinks.place(x=25, y=380)
 label_food = Label(frame_food, 
-              text="Comida",
-              font=("Calibri", "22", "bold"),
+              text="Correo:",
+              font=("Calibri", "20", "bold"),
               fg="white",
               bg="#d48df0")
-label_food.place(x=20, y=290)
+label_food.place(x=35, y=50)
+frame_food.place(x=20, y=40)
+
+label_food = Label(frame_food, 
+              text="Edad:",
+              font=("Calibri", "20", "bold"),
+              fg="white",
+              bg="#d48df0")
+label_food.place(x=35, y=120)
+frame_food.place(x=20, y=40)
+
+label_food = Label(frame_food, 
+              text="Nombre:",
+              font=("Calibri", "20", "bold"),
+              fg="white",
+              bg="#d48df0")
+label_food.place(x=35, y=180)
+frame_food.place(x=20, y=40)
+
+
+
+
+
+
+
+
+
 
 # Widgets dentro del contender NAVBAR
 title = Label(frame_navbar, 
-              text="Menú",
+              text="casa",
               font=("Calibri", "14"))
 title.place(x=320, y=40)
 
