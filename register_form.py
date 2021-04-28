@@ -24,23 +24,31 @@ label_food = Label(frame_food,
               fg="white",
               bg="#d48df0")
 label_food.place(x=35, y=50)
-frame_food.place(x=20, y=40)
+entry = ttk.Entry(frame_food)
+# Posicionarla en la ventana.
+entry.place(x=150, y=60)
+
+label_food = Label(frame_food, 
+              text="Pass:",
+              font=("Calibri", "20", "bold"),
+              fg="white",
+              bg="#d48df0")
+label_food.place(x=35, y=120)
+entry = ttk.Entry(frame_food)
+# Posicionarla en la ventana.
+entry.place(x=150, y=130)
 
 label_food = Label(frame_food, 
               text="Edad:",
               font=("Calibri", "20", "bold"),
               fg="white",
               bg="#d48df0")
-label_food.place(x=35, y=120)
-frame_food.place(x=20, y=40)
-
-label_food = Label(frame_food, 
-              text="Nombre:",
-              font=("Calibri", "20", "bold"),
-              fg="white",
-              bg="#d48df0")
 label_food.place(x=35, y=180)
-frame_food.place(x=20, y=40)
+entry = ttk.Entry(frame_food)
+# Posicionarla en la ventana.
+entry.place(x=150, y=195)
+
+
 
 
 
